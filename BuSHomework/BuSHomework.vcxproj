@@ -78,8 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HA3Nr2Threads.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="Piping.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

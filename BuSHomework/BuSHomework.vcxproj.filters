@@ -21,5 +21,11 @@
     <ClCompile Include="List.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="HA3Nr2Threads.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Piping.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
