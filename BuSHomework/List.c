@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int element_bereits_in_der_liste(sort_type*, stud_type*);
-typedef struct penis { int p; };
 
 typedef struct stud_type_ {                  /* Struktur des Datensatzes:    */
 	int matnum;                              /* Matrikelnummer, Vor-         */
@@ -15,7 +13,7 @@ typedef struct sort_type_ {
 	stud_type *student;
 	struct sort_type_ *next_student_pointer;
 }sort_type;
-
+int element_bereits_in_der_liste(sort_type*, stud_type*);
 /* Ist die Datenbank leer?      */
 int is_empty(stud_type** liste) {
 	return *liste == NULL;
@@ -197,7 +195,6 @@ int main()
 	char nachname[20];
 	/* zeiger fŸr iteration */
 	stud_type *curr;
-	fuckTheWorld();
 	printf(">>> Fuege neuen Studenten in die Liste ein: Bill Clinton [6666] ...\n");
 	enqueue(&studenten_liste, 6666, "Bill", "Clinton");
 	printf(">>> Fuege neuen Studenten in die Liste ein: Hillary Clinton [4711] ...\n");

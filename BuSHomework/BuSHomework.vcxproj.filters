@@ -27,5 +27,8 @@
     <ClCompile Include="Piping.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Nightlife.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
